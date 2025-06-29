@@ -1,5 +1,4 @@
 import {
-  Icon,
   Loader2Icon,
   LucideImage,
   LucideList,
@@ -10,11 +9,9 @@ import {
 import React, { useEffect, useState } from "react";
 import AnswerDisplay from "./AnswerDisplay";
 import axios from "axios";
-import { SEARCH_RESULT } from "@/services/Shared";
 import { supabase } from "@/services/supabase";
 import { useParams } from "next/navigation";
 import ImageListTab from "./ImageListTab";
-import SourceList from "./SourceList";
 import SourceListTab from "./SourceListTab";
 import { Button } from "@/components/ui/button";
 import VideoListTab from "./VideoListTab";

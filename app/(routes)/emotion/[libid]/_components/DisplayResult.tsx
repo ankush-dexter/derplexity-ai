@@ -1,15 +1,10 @@
 import {
-  Icon,
   Loader2Icon,
-  LucideImage,
-  LucideList,
   LucideSparkles,
-  LucideVideo,
   Send,
 } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { SEARCH_RESULT } from "@/services/Shared";
 import { supabase } from "@/services/supabase";
 import { useParams } from "next/navigation";
 import { Button } from "@/components/ui/button";

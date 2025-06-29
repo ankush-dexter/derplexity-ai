@@ -15,8 +15,6 @@ import {
 import {
   Compass,
   GalleryHorizontalEnd,
-  Ghost,
-  LogIn,
   Search,
 } from "lucide-react";
 import { usePathname } from "next/navigation";

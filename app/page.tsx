@@ -1,6 +1,4 @@
 import ChatInputBox from '@/components/ChatInputBox';
-import { Button } from '@/components/ui/button';
-import react from 'react';
 
 export default function Page() {
   return (

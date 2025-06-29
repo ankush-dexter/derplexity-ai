@@ -6,11 +6,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   ArrowRight,
   Atom,
-  AudioLines,
   Cpu,
   Globe,
-  Mic,
-  Paperclip,
   SearchCheckIcon,
 } from "lucide-react";
 import { Button } from "./ui/button";
@@ -18,8 +15,6 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { AIModelsOption } from "@/services/Shared";
